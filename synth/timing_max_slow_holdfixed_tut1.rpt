@@ -1,0 +1,66 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : top
+Version: I-2013.12-SP1
+Date   : Sun Apr  5 19:47:35 2015
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+Wire Load Model Mode: top
+
+  Startpoint: FIFO3_1/U1/U1/rd_addr_int_reg[2]
+              (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: FIFO3_1/U1/U1/empty_n_reg
+            (rising edge-triggered flip-flop clocked by clock)
+  Path Group: clock
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (rise edge)                               0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  FIFO3_1/U1/U1/rd_addr_int_reg[2]/CK (SDFFR_X2)        0.0000 #   0.0000 r
+  FIFO3_1/U1/U1/rd_addr_int_reg[2]/QN (SDFFR_X2)        0.6934     0.6934 f
+  U3091/ZN (NAND2_X2)                                   0.4796     1.1731 r
+  U3070/ZN (OAI22_X1)                                   0.2627     1.4358 f
+  U1048/ZN (AOI221_X2)                                  0.5181     1.9539 r
+  U1045/ZN (OAI22_X2)                                   0.1760     2.1299 f
+  STAGE4_1/dataIn1[0] (fifoMerge_depth8_1)              0.0000     2.1299 f
+  STAGE4_1/U4/ZN (AOI21_X4)                             0.2934     2.4233 r
+  STAGE4_1/U3/ZN (AND2_X4)                              0.1737     2.5971 r
+  STAGE4_1/U13/ZN (NOR3_X2)                             0.0494     2.6465 f
+  STAGE4_1/U25/ZN (OR2_X2)                              0.2248     2.8713 f
+  STAGE4_1/U27/ZN (OAI21_X2)                            0.2698     3.1411 r
+  STAGE4_1/U17/ZN (OAI21_X2)                            0.1114     3.2525 f
+  STAGE4_1/U7/ZN (OR2_X2)                               0.2732     3.5258 f
+  STAGE4_1/req_data1 (fifoMerge_depth8_1)               0.0000     3.5258 f
+  U1157/ZN (NOR2_X2)                                    0.3002     3.8260 r
+  U1156/ZN (NAND2_X2)                                   0.1737     3.9997 f
+  U3364/ZN (OAI21_X2)                                   0.3009     4.3006 r
+  U3478/ZN (OAI21_X1)                                   0.2134     4.5140 f
+  U1148/ZN (AOI221_X2)                                  0.5155     5.0296 r
+  U3507/ZN (OAI21_X2)                                   0.1374     5.1670 f
+  U2954/ZN (OR4_X1)                                     0.6362     5.8032 f
+  FIFO3_1/U1/U1/empty_n_reg/D (DFFR_X2)                 0.0000     5.8032 f
+  data arrival time                                                5.8032
+
+  clock clock (rise edge)                               6.2800     6.2800
+  clock network delay (ideal)                           0.0000     6.2800
+  clock uncertainty                                    -0.0500     6.2300
+  FIFO3_1/U1/U1/empty_n_reg/CK (DFFR_X2)                0.0000     6.2300 r
+  library setup time                                   -0.4227     5.8073
+  data required time                                               5.8073
+  --------------------------------------------------------------------------
+  data required time                                               5.8073
+  data arrival time                                               -5.8032
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.0040
+
+
+1

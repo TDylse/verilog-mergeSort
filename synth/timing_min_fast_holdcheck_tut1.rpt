@@ -1,0 +1,49 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'top' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+Design : top
+Version: I-2013.12-SP1
+Date   : Sun Apr  5 19:47:30 2015
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: fast   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_fast_nldm
+Wire Load Model Mode: top
+
+  Startpoint: STAGE4_2/count_reg[4]
+              (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: STAGE4_2/count_reg[4]
+            (rising edge-triggered flip-flop clocked by clock)
+  Path Group: clock
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clock (rise edge)                0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  STAGE4_2/count_reg[4]/CK (DFFR_X2)     0.0000 #   0.0000 r
+  STAGE4_2/count_reg[4]/Q (DFFR_X2)      0.0693     0.0693 r
+  STAGE4_2/U43/Z (XOR2_X2)               0.0126     0.0819 f
+  STAGE4_2/count_reg[4]/D (DFFR_X2)      0.0000     0.0819 f
+  data arrival time                                 0.0819
+
+  clock clock (rise edge)                0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  clock uncertainty                      0.0500     0.0500
+  STAGE4_2/count_reg[4]/CK (DFFR_X2)     0.0000     0.0500 r
+  library hold time                      0.0024     0.0524
+  data required time                                0.0524
+  -----------------------------------------------------------
+  data required time                                0.0524
+  data arrival time                                -0.0819
+  -----------------------------------------------------------
+  slack (MET)                                       0.0295
+
+
+1

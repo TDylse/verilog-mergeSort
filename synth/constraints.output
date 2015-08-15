@@ -1,0 +1,183 @@
+Current design is 'top'.
+Information: Building the design 'fifoMerge' instantiated from design 'top' with
+	the parameters "depth=2". (HDL-193)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/fifoMerge.v:84: signed to unsigned conversion occurs. (VER-318)
+
+Statistics for case statements in always block at line 67 in file
+	'/afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/fifoMerge.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            70            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine fifoMerge_depth2 line 52 in file
+		'/afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/fifoMerge.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  current_state_reg  | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      count_reg      | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'fifoMerge' instantiated from design 'top' with
+	the parameters "depth=4". (HDL-193)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/fifoMerge.v:84: signed to unsigned conversion occurs. (VER-318)
+
+Statistics for case statements in always block at line 67 in file
+	'/afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/fifoMerge.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            70            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine fifoMerge_depth4 line 52 in file
+		'/afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/fifoMerge.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  current_state_reg  | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      count_reg      | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'fifoMerge' instantiated from design 'top' with
+	the parameters "depth=8". (HDL-193)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/fifoMerge.v:84: signed to unsigned conversion occurs. (VER-318)
+
+Statistics for case statements in always block at line 67 in file
+	'/afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/fifoMerge.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            70            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine fifoMerge_depth8 line 52 in file
+		'/afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/fifoMerge.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  current_state_reg  | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      count_reg      | Flip-flop |   9   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'fifoMerge_regFile' instantiated from design 'top' with
+	the parameters "depth=16". (HDL-193)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/fifoMerge_regFile.v:83: signed to unsigned conversion occurs. (VER-318)
+
+Statistics for case statements in always block at line 67 in file
+	'/afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/fifoMerge_regFile.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            70            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine fifoMerge_regFile_depth16 line 52 in file
+		'/afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/fifoMerge_regFile.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  current_state_reg  | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      count_reg      | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Information: Checking out the license 'DesignWare'. (SEC-104)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | I-2013.12-DWBB_201312.1 |     *     |
+| Licensed DW Building Blocks        | I-2013.12-DWBB_201312.1 |     *     |
+============================================================================
+
+  Allocating blocks in 'top'
+Warning: Design 'DW_fifo_s1_sf_width8_depth16_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth16_rst_mode0'. (DDB-74)
+Warning: Design 'top' inherited license information from design 'DW_fifo_s1_sf_width8_depth16_ae_level1_af_level1_err_mode0_rst_mode0'. (DDB-74)
+Information: Added key list 'DesignWare' to design 'top'. (DDB-72)
+Warning: Design 'DW_fifo_s1_sf_width8_depth16_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth16_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth8_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth8_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth8_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth8_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth8_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth8_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth8_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth8_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth4_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth4_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth4_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth4_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth4_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth4_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth4_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth4_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth4_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth4_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth4_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth4_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth4_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth4_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth4_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth4_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth2_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth2_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth2_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth2_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth2_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth2_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth2_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth2_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth2_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth2_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth2_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth2_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth2_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth2_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth2_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth2_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth2_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth2_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth2_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth2_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth2_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth2_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth2_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth2_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth2_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth2_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth2_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth2_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth2_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth2_rst_mode0'. (DDB-74)
+Warning: Design 'DW_fifo_s1_sf_width8_depth2_ae_level1_af_level1_err_mode0_rst_mode0' inherited license information from design 'DW_ram_r_w_s_dff_data_width8_depth2_rst_mode0'. (DDB-74)
+  Allocating blocks in 'MemoryBank'
+Warning: Design 'RegFile' inherited license information from design 'DW_leftsh'. (DDB-74)
+Information: Added key list 'DesignWare' to design 'RegFile'. (DDB-72)
+  Allocating blocks in 'u16'
+  Allocating blocks in 'STAGE2_8'
+  Allocating blocks in 'STAGE3_4'
+  Allocating blocks in 'STAGE4_2'
+  Allocating blocks in 'STAGE5_1'
+  Transferring Design 'RegFile' to database 'RegFile.db'
+  Transferring Design 'sort_2_values' to database 'sort_2_values.db'
+  Transferring Design 'fifoMerge_depth2' to database 'fifoMerge_depth2.db'
+  Transferring Design 'fifoMerge_depth4' to database 'fifoMerge_depth4.db'
+  Transferring Design 'fifoMerge_depth8' to database 'fifoMerge_depth8.db'
+  Transferring Design 'fifoMerge_regFile_depth16' to database 'fifoMerge_regFile_depth16.db'
+Warning: Design 'RegFile' is being converted to a limited design. (DDB-75)
+Warning: Design 'top' is being converted to a limited design. (DDB-75)
+Warning: Current design named top is hidden.  (UID-408)
+ 
+****************************************
+check_design summary:
+Version:     I-2013.12-SP1
+Date:        Sun Apr  5 19:46:07 2015
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                               6
+    Cells do not drive (LINT-1)                                     6
+--------------------------------------------------------------------------------
+
+Warning: In design 'fifoMerge_depth2', cell 'B_6' does not drive any nets. (LINT-1)
+Warning: In design 'fifoMerge_depth2', cell 'C148' does not drive any nets. (LINT-1)
+Warning: In design 'fifoMerge_depth4', cell 'B_6' does not drive any nets. (LINT-1)
+Warning: In design 'fifoMerge_depth4', cell 'C152' does not drive any nets. (LINT-1)
+Warning: In design 'fifoMerge_depth8', cell 'B_6' does not drive any nets. (LINT-1)
+Warning: In design 'fifoMerge_depth8', cell 'C160' does not drive any nets. (LINT-1)
+Warning: Current design named top is hidden.  (UID-408)
+
+  Linking design 'top'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm (library)
+                              /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/nangate/NangateOpenCellLibrary_PDKv1_2_v2008_10/liberty/520/NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm.db
+  dw_foundation.sldb (library)
+                              /ncsu/synopsys2014/syn/libraries/syn/dw_foundation.sldb
+
+1

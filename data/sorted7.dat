@@ -1,0 +1,35 @@
+// memory data file (do not edit the following line - required for mem load use)
+// instance=/tb_top/u1/MemoryBank/my_memory
+// format=hex addressradix=h dataradix=h version=1.0 wordsperline=1 noaddress
+01
+15
+1b
+27
+2f
+3a
+3e
+3f
+4d
+58
+60
+61
+62
+66
+6b
+88
+90
+96
+98
+9d
+ac
+b5
+b6
+c6
+c6
+c8
+d1
+db
+de
+df
+f3
+f6

@@ -1,0 +1,346 @@
+Loading db file '/afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/nangate/NangateOpenCellLibrary_PDKv1_2_v2008_10/liberty/520/NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm.db'
+Loading db file '/ncsu/synopsys2014/syn/libraries/syn/dw_foundation.sldb'
+Loading db file '/ncsu/synopsys2014/syn/libraries/syn/gtech.db'
+Loading db file '/ncsu/synopsys2014/syn/libraries/syn/standard.sldb'
+  Loading link library 'NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm'
+  Loading link library 'gtech'
+Loading verilog file '/afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/sort_2_values.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/sort_2_values.v
+
+Statistics for case statements in always block at line 43 in file
+	'/afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/sort_2_values.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            46            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine sort_2_values line 37 in file
+		'/afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/sort_2_values.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  current_state_reg  | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/sort_2_values.db:sort_2_values'
+Loaded 1 design.
+Current design is 'sort_2_values'.
+Loading verilog file '/afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/regfile.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/regfile.v
+Warning:  Starting with the 2000.11-1 release, the Presto Verilog reader treats Verilog 'integer' types as signed; synthesized result may not match earlier versions of HDL Compiler. (VER-314)
+
+Inferred memory devices in process
+	in routine RegFile line 33 in file
+		'/afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/regfile.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    my_memory_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/RegFile.db:RegFile'
+Loaded 1 design.
+Current design is 'RegFile'.
+Loading verilog file '/afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/fifoMerge.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/fifoMerge.v
+Module 'fifoMerge' was not elaborated because it contains the 'template' attribute.  Instead, it has been saved as a template.
+No designs were read
+Loading verilog file '/afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/fifoMerge_regFile.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/fifoMerge_regFile.v
+Module 'fifoMerge_regFile' was not elaborated because it contains the 'template' attribute.  Instead, it has been saved as a template.
+No designs were read
+Loading verilog file '/afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:61: the undeclared symbol 'FIFO1_1_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:62: the undeclared symbol 'FIFO1_2_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:63: the undeclared symbol 'FIFO1_3_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:64: the undeclared symbol 'FIFO1_4_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:65: the undeclared symbol 'FIFO1_5_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:66: the undeclared symbol 'FIFO1_6_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:67: the undeclared symbol 'FIFO1_7_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:68: the undeclared symbol 'FIFO1_8_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:69: the undeclared symbol 'FIFO1_9_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:70: the undeclared symbol 'FIFO1_10_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:71: the undeclared symbol 'FIFO1_11_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:72: the undeclared symbol 'FIFO1_12_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:73: the undeclared symbol 'FIFO1_13_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:74: the undeclared symbol 'FIFO1_14_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:75: the undeclared symbol 'FIFO1_15_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:76: the undeclared symbol 'FIFO1_16_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:81: the undeclared symbol 'FIFO1_1_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:81: the undeclared symbol 'FIFO1_1_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:81: the undeclared symbol 'FIFO1_1_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:82: the undeclared symbol 'FIFO1_2_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:82: the undeclared symbol 'FIFO1_2_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:82: the undeclared symbol 'FIFO1_2_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:83: the undeclared symbol 'FIFO2_1_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:89: the undeclared symbol 'FIFO1_3_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:89: the undeclared symbol 'FIFO1_3_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:89: the undeclared symbol 'FIFO1_3_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:90: the undeclared symbol 'FIFO1_4_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:90: the undeclared symbol 'FIFO1_4_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:90: the undeclared symbol 'FIFO1_4_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:91: the undeclared symbol 'FIFO2_2_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:95: the undeclared symbol 'FIFO1_5_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:95: the undeclared symbol 'FIFO1_5_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:95: the undeclared symbol 'FIFO1_5_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:96: the undeclared symbol 'FIFO1_6_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:96: the undeclared symbol 'FIFO1_6_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:96: the undeclared symbol 'FIFO1_6_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:97: the undeclared symbol 'FIFO2_3_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:101: the undeclared symbol 'FIFO1_7_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:101: the undeclared symbol 'FIFO1_7_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:101: the undeclared symbol 'FIFO1_7_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:102: the undeclared symbol 'FIFO1_8_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:102: the undeclared symbol 'FIFO1_8_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:102: the undeclared symbol 'FIFO1_8_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:103: the undeclared symbol 'FIFO2_4_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:107: the undeclared symbol 'FIFO1_9_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:107: the undeclared symbol 'FIFO1_9_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:107: the undeclared symbol 'FIFO1_9_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:108: the undeclared symbol 'FIFO1_10_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:108: the undeclared symbol 'FIFO1_10_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:108: the undeclared symbol 'FIFO1_10_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:109: the undeclared symbol 'FIFO2_5_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:113: the undeclared symbol 'FIFO1_11_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:113: the undeclared symbol 'FIFO1_11_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:113: the undeclared symbol 'FIFO1_11_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:114: the undeclared symbol 'FIFO1_12_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:114: the undeclared symbol 'FIFO1_12_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:114: the undeclared symbol 'FIFO1_12_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:115: the undeclared symbol 'FIFO2_6_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:119: the undeclared symbol 'FIFO1_13_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:119: the undeclared symbol 'FIFO1_13_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:119: the undeclared symbol 'FIFO1_13_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:120: the undeclared symbol 'FIFO1_14_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:120: the undeclared symbol 'FIFO1_14_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:120: the undeclared symbol 'FIFO1_14_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:121: the undeclared symbol 'FIFO2_7_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:125: the undeclared symbol 'FIFO1_15_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:125: the undeclared symbol 'FIFO1_15_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:125: the undeclared symbol 'FIFO1_15_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:126: the undeclared symbol 'FIFO1_16_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:126: the undeclared symbol 'FIFO1_16_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:126: the undeclared symbol 'FIFO1_16_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:127: the undeclared symbol 'FIFO2_8_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:131: the undeclared symbol 'FIFO2_1_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:131: the undeclared symbol 'FIFO2_1_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:131: the undeclared symbol 'FIFO2_1_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:132: the undeclared symbol 'FIFO2_2_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:132: the undeclared symbol 'FIFO2_2_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:132: the undeclared symbol 'FIFO2_2_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:133: the undeclared symbol 'FIFO3_1_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:137: the undeclared symbol 'FIFO2_3_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:137: the undeclared symbol 'FIFO2_3_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:137: the undeclared symbol 'FIFO2_3_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:138: the undeclared symbol 'FIFO2_4_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:138: the undeclared symbol 'FIFO2_4_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:138: the undeclared symbol 'FIFO2_4_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:139: the undeclared symbol 'FIFO3_2_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:143: the undeclared symbol 'FIFO2_5_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:143: the undeclared symbol 'FIFO2_5_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:143: the undeclared symbol 'FIFO2_5_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:144: the undeclared symbol 'FIFO2_6_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:144: the undeclared symbol 'FIFO2_6_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:144: the undeclared symbol 'FIFO2_6_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:145: the undeclared symbol 'FIFO3_3_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:149: the undeclared symbol 'FIFO2_7_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:149: the undeclared symbol 'FIFO2_7_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:149: the undeclared symbol 'FIFO2_7_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:150: the undeclared symbol 'FIFO2_8_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:150: the undeclared symbol 'FIFO2_8_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:150: the undeclared symbol 'FIFO2_8_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:151: the undeclared symbol 'FIFO3_4_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:156: the undeclared symbol 'FIFO3_1_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:156: the undeclared symbol 'FIFO3_1_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:156: the undeclared symbol 'FIFO3_1_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:157: the undeclared symbol 'FIFO3_2_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:157: the undeclared symbol 'FIFO3_2_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:157: the undeclared symbol 'FIFO3_2_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:158: the undeclared symbol 'FIFO4_1_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:162: the undeclared symbol 'FIFO3_3_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:162: the undeclared symbol 'FIFO3_3_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:162: the undeclared symbol 'FIFO3_3_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:163: the undeclared symbol 'FIFO3_4_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:163: the undeclared symbol 'FIFO3_4_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:163: the undeclared symbol 'FIFO3_4_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:164: the undeclared symbol 'FIFO4_2_push' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:176: the undeclared symbol 'FIFO4_1_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:176: the undeclared symbol 'FIFO4_1_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:176: the undeclared symbol 'FIFO4_1_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:177: the undeclared symbol 'FIFO4_2_pop' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:177: the undeclared symbol 'FIFO4_2_full' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:177: the undeclared symbol 'FIFO4_2_empty' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:187: the undeclared symbol 'almost_empty_inst' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:187: the undeclared symbol 'half_full_inst' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:188: the undeclared symbol 'almost_full_inst' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:189: the undeclared symbol 'error_inst' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:195: the undeclared symbol 'almost_empty_inst2' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:195: the undeclared symbol 'half_full_inst2' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:196: the undeclared symbol 'almost_full_inst2' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:197: the undeclared symbol 'error_inst2' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:203: the undeclared symbol 'almost_empty_inst3' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:203: the undeclared symbol 'half_full_inst3' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:204: the undeclared symbol 'almost_full_inst3' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:205: the undeclared symbol 'error_inst3' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:211: the undeclared symbol 'almost_empty_inst4' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:211: the undeclared symbol 'half_full_inst4' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:212: the undeclared symbol 'almost_full_inst4' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:213: the undeclared symbol 'error_inst4' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:219: the undeclared symbol 'almost_empty_inst5' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:219: the undeclared symbol 'half_full_inst5' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:220: the undeclared symbol 'almost_full_inst5' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:221: the undeclared symbol 'error_inst5' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:227: the undeclared symbol 'almost_empty_inst6' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:227: the undeclared symbol 'half_full_inst6' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:228: the undeclared symbol 'almost_full_inst6' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:229: the undeclared symbol 'error_inst6' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:235: the undeclared symbol 'almost_empty_inst7' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:235: the undeclared symbol 'half_full_inst7' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:236: the undeclared symbol 'almost_full_inst7' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:237: the undeclared symbol 'error_inst7' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:243: the undeclared symbol 'almost_empty_inst8' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:243: the undeclared symbol 'half_full_inst8' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:244: the undeclared symbol 'almost_full_inst8' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:245: the undeclared symbol 'error_inst8' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:251: the undeclared symbol 'almost_empty_inst9' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:251: the undeclared symbol 'half_full_inst9' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:252: the undeclared symbol 'almost_full_inst9' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:253: the undeclared symbol 'error_inst9' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:259: the undeclared symbol 'almost_empty_inst10' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:259: the undeclared symbol 'half_full_inst10' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:260: the undeclared symbol 'almost_full_inst10' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:261: the undeclared symbol 'error_inst10' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:267: the undeclared symbol 'almost_empty_inst11' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:267: the undeclared symbol 'half_full_inst11' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:268: the undeclared symbol 'almost_full_inst11' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:269: the undeclared symbol 'error_inst11' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:275: the undeclared symbol 'almost_empty_inst12' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:275: the undeclared symbol 'half_full_inst12' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:276: the undeclared symbol 'almost_full_inst12' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:277: the undeclared symbol 'error_inst12' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:283: the undeclared symbol 'almost_empty_inst13' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:283: the undeclared symbol 'half_full_inst13' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:284: the undeclared symbol 'almost_full_inst13' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:285: the undeclared symbol 'error_inst13' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:291: the undeclared symbol 'almost_empty_inst14' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:291: the undeclared symbol 'half_full_inst14' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:292: the undeclared symbol 'almost_full_inst14' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:293: the undeclared symbol 'error_inst14' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:299: the undeclared symbol 'almost_empty_inst15' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:299: the undeclared symbol 'half_full_inst15' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:300: the undeclared symbol 'almost_full_inst15' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:301: the undeclared symbol 'error_inst15' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:307: the undeclared symbol 'almost_empty_inst16' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:307: the undeclared symbol 'half_full_inst16' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:308: the undeclared symbol 'almost_full_inst16' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:309: the undeclared symbol 'error_inst16' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:316: the undeclared symbol 'almost_empty_inst17' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:316: the undeclared symbol 'half_full_inst17' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:317: the undeclared symbol 'almost_full_inst17' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:318: the undeclared symbol 'error_inst17' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:324: the undeclared symbol 'almost_empty_inst18' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:324: the undeclared symbol 'half_full_inst18' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:325: the undeclared symbol 'almost_full_inst18' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:326: the undeclared symbol 'error_inst18' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:332: the undeclared symbol 'almost_empty_inst19' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:332: the undeclared symbol 'half_full_inst19' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:333: the undeclared symbol 'almost_full_inst19' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:334: the undeclared symbol 'error_inst19' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:340: the undeclared symbol 'almost_empty_inst119' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:340: the undeclared symbol 'half_full_inst119' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:341: the undeclared symbol 'almost_full_inst119' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:342: the undeclared symbol 'error_inst119' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:348: the undeclared symbol 'almost_empty_inst20' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:348: the undeclared symbol 'half_full_inst20' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:349: the undeclared symbol 'almost_full_inst20' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:350: the undeclared symbol 'error_inst20' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:356: the undeclared symbol 'almost_empty_inst21' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:356: the undeclared symbol 'half_full_inst21' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:357: the undeclared symbol 'almost_full_inst21' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:358: the undeclared symbol 'error_inst21' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:364: the undeclared symbol 'almost_empty_inst22' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:364: the undeclared symbol 'half_full_inst22' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:365: the undeclared symbol 'almost_full_inst22' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:366: the undeclared symbol 'error_inst22' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:372: the undeclared symbol 'almost_empty_inst23' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:372: the undeclared symbol 'half_full_inst23' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:373: the undeclared symbol 'almost_full_inst23' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:374: the undeclared symbol 'error_inst23' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:382: the undeclared symbol 'almost_empty_inst24' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:382: the undeclared symbol 'half_full_inst24' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:383: the undeclared symbol 'almost_full_inst24' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:384: the undeclared symbol 'error_inst24' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:390: the undeclared symbol 'almost_empty_inst25' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:390: the undeclared symbol 'half_full_inst25' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:391: the undeclared symbol 'almost_full_inst25' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:392: the undeclared symbol 'error_inst25' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:398: the undeclared symbol 'almost_empty_inst26' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:398: the undeclared symbol 'half_full_inst26' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:399: the undeclared symbol 'almost_full_inst26' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:400: the undeclared symbol 'error_inst26' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:406: the undeclared symbol 'almost_empty_inst27' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:406: the undeclared symbol 'half_full_inst27' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:407: the undeclared symbol 'almost_full_inst27' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:408: the undeclared symbol 'error_inst27' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:415: the undeclared symbol 'almost_empty_inst28' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:415: the undeclared symbol 'half_full_inst28' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:416: the undeclared symbol 'almost_full_inst28' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:417: the undeclared symbol 'error_inst28' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:423: the undeclared symbol 'almost_empty_inst29' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:423: the undeclared symbol 'half_full_inst29' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:424: the undeclared symbol 'almost_full_inst29' assumed to have the default net type, which is 'wire'. (VER-936)
+Warning:  /afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.v:425: the undeclared symbol 'error_inst29' assumed to have the default net type, which is 'wire'. (VER-936)
+Presto compilation completed successfully.
+Current design is now '/afs/unity.ncsu.edu/users/t/tgibson4/project/FINAL/top.db:top'
+Loaded 1 design.
+Current design is 'top'.
+top

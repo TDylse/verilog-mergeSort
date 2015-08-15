@@ -1,0 +1,35 @@
+// memory data file (do not edit the following line - required for mem load use)
+// instance=/tb_top/penUltimate
+// format=hex addressradix=h dataradix=h version=1.0 wordsperline=1 noaddress
+00000002
+00000010
+00000027
+00000032
+0000003a
+0000003c
+0000003e
+00000068
+0000007a
+0000009e
+000000bd
+000000cf
+000000d0
+000000d3
+000000e9
+000000f0
+00000002
+00000003
+00000014
+0000004e
+0000004f
+00000051
+00000053
+0000005c
+00000071
+00000089
+000000af
+000000bb
+000000cf
+000000d0
+000000f3
+000000ff
